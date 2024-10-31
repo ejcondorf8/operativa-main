@@ -16,8 +16,12 @@ Antes de comenzar, asegúrate de tener instalado lo siguiente:
    Abre una terminal y ejecuta el siguiente comando:
    ```bash
    git clone https://github.com/ejcondorf8/operativa-main
-cd operativa-main/
-python -m venv venv
-source venv/Scripts/activate
-pip install -r requirements.txt
-code . o pycharm
+   cd operativa-main/
+   python -m venv venv
+   source venv/Scripts/activate  # Para Windows
+   # o
+   source venv/bin/activate       # Para macOS/Linux
+   pip install -r requirements.txt
+   code .  # Para abrir en VSCode
+   # o
+   pycharm .  # Para abrir en PyCharm
